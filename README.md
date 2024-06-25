@@ -20,7 +20,7 @@ Note down the clientId (Application ID) and clientSecret (Client Secret).
 Set the redirect URI to http://localhost:3000/auth/callback.
 Under API permissions, add Files.Read, Files.Read.All, Files.ReadWrite, Files.ReadWrite.All, User.Read, and offline_access.
 ```
-.ENV sample
+Create a .env file with following values
 
 
    ```bash
