@@ -17,6 +17,17 @@ Note down the clientId (Application ID) and clientSecret (Client Secret).
 Set the redirect URI to http://localhost:3000/auth/callback.
 Under API permissions, add Files.Read, Files.Read.All, Files.ReadWrite, Files.ReadWrite.All, User.Read, and offline_access.
 ```
+.ENV sample
+
+
+   ```bash
+CLIENT_ID=CLIENT_ID
+TENANT_ID=tenant-id
+CLIENT_SECRET=secret-value
+REDIRECT_URI=http://localhost:3000/auth/callback
+AUTHORITY=https://login.microsoftonline.com/common
+PORT=3000
+```
 
 Clone the repository and start the application:
    ```bash
