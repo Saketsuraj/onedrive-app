@@ -9,6 +9,15 @@ This app connects to OneDrive to:
 
 ## Setup and Execution
 
+Azure App Registration:
+
+   ```bash
+Go to the Azure portal and register a new application.
+Note down the clientId (Application ID) and clientSecret (Client Secret).
+Set the redirect URI to http://localhost:3000/auth/callback.
+Under API permissions, add Files.Read, Files.Read.All, Files.ReadWrite, Files.ReadWrite.All, User.Read, and offline_access.
+```
+
 Clone the repository and start the application:
    ```bash
    git clone https://github.com/Saketsuraj/onedrive-app.git
