@@ -1,5 +1,8 @@
 # OneDrive App
 
+## Versions:
+Node: 18.18.0 and NPM: 9.8.1
+
 ## Overview
 This app connects to OneDrive to:
 - List files
