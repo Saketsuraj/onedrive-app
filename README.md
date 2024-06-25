@@ -9,7 +9,7 @@ This app connects to OneDrive to:
 
 ## Setup and Execution
 
-1. Clone the repository:
+Clone the repository and start the application:
    ```bash
    git clone https://github.com/Saketsuraj/onedrive-app.git
    cd onedrive-app
