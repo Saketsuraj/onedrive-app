@@ -14,6 +14,7 @@ Clone the repository and start the application:
    git clone https://github.com/Saketsuraj/onedrive-app.git
    cd onedrive-app
    npm install
-   Get client id and other details from Azure and store in a .env file
+   Register an App on the azure portal in the Active Directory
+   Get client ID and other details from Azure and store them in a .env file
    npm start
    Open a browser and enter http://localhost:3000/auth/signin
